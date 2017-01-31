@@ -13,3 +13,4 @@
 2. `git clone git@github.com:idreamshen/tenement.git` 获取最新代码
 3. `cd tenement` 进入项目目录
 4. `./crawl-all.sh` 执行一键爬虫
+5. `python run.py` 执行一键爬虫 *python版本需要为python3*
