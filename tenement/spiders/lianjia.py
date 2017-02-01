@@ -7,9 +7,9 @@ class LianjiaSpider(scrapy.Spider):
     name = "lianjia"
     allowed_domains = ["m.lianjia.com"]
     start_urls = [
-        'http://m.lianjia.com/hz/zufang/wenjiao/pg1',
-        'http://m.lianjia.com/hz/zufang/wenjiao/pg2',
-        'http://m.lianjia.com/hz/zufang/wenjiao/pg3',
+        'https://m.lianjia.com/hz/zufang/wenjiao/pg1',
+        'https://m.lianjia.com/hz/zufang/wenjiao/pg2',
+        'https://m.lianjia.com/hz/zufang/wenjiao/pg3',
     ]
 
     def parse(self, response):
