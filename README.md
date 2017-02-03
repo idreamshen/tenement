@@ -13,4 +13,4 @@
 1. `pip3 install scrapy` 安装 scrapy 框架
 2. `git clone git@github.com:idreamshen/tenement.git` 获取最新代码
 3. `cd tenement` 进入项目目录
-4. `./crawl-all.sh` 执行一键爬虫
+4. 可以使用以下方式执行爬虫 `./crawl-all.sh` 或 `./run.py`
