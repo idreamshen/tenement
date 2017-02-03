@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 #使用scrapy api 在一个进程中同时运行多个spider
 
 from tenement.spiders.anjuke import AnjukeSpider
