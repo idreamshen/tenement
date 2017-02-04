@@ -39,7 +39,7 @@
 需要的字段：房源标题，房源图片，房源地理位置，房源户型，整租/合租，房源链接，所属小区，房源来源网站，唯一表示 id 等 
 
 ### 任务
-- [ ] requirements.txt 文件整理
+- [x] requirements.txt 增加依赖版本定义文件
 - [ ] items.py 字段设计
 - [ ] pipelines.py 将 item 导入数据库
 
