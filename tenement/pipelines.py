@@ -8,5 +8,5 @@
 
 class TenementPipeline(object):
     def process_item(self, item, spider):
-        print(item['href'], item['title'], item['price'])
+        print('链接=' + item['href'], '地址=' + item['title'], '价格=' + str(item['price']))
         return item
